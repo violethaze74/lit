@@ -173,6 +173,7 @@ export default {
     '../lit-html/development/**/*_test.(js|html)',
     '../reactive-element/development/**/*_test.(js|html)',
   ],
+  port: 8002,
   nodeResolve: true,
   concurrency: Number(process.env.CONCURRENT_FRAMES || 6), // default cores / 2
   concurrentBrowsers: Number(process.env.CONCURRENT_BROWSERS || 2), // default 2
